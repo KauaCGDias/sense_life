@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.secao-1 {
+    background-image: url(img/home.jpg);
+    height: 100vh;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 16rem;
+}
+
+.link {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.link:hover {
+    background-color: black;
+    
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 210px;
+}
+
+.img-titulo {
+    width: 540px;
+    height: 210px;
+    margin-top: 16rem;
+}
+
+.tt {
+    margin-left: 40px;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+}
+
+.secao-2 {
+    background-color: black;
+    height: 170vh;
+}
+
+.secao-2 {
+    text-align: center;
+    padding: 60px;
+}
+
+.link-personagens {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 25px;
+}
+
+/* parte-geral-da-div-1 */
+
+.divisao-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    
+}
+
+/* parte-do-noah */
+
+.noah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.noah {
+    height: 500px;
+    width: 250px;
+}
+
+.img-noah {
+    height: 358px;
+    width: 196px;
+}
+
+.noah-descripton {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.descricao-1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/* parte-do-kaleb */
+
+.kaleb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.kaleb {
+    height: 500px;
+    width: 250px;
+}
+
+.img-kaleb {
+    height: 358px;
+    width: 196px;
+}
+
+.kaleb-descripton {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.descricao-2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/* parte-da-mortuus */
+
+.mortuus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.mortuus {
+    height: 500px;
+    width: 250px;
+}
+
+.img-mortuus {
+    height: 358px;
+    width: 196px;
+}
+
+.mortuus-descripton {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.descricao-3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/* parte-geral-da-div-2 */
+
+.divisao-2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    justify-content: space-evenly;
+}
+
+/* parte-do-reaver */
+
+.reaver {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.reaver {
+    height: 500px;
+    width: 250px;
+}
+
+.img-reaver {
+    height: 358px;
+    width: 196px;
+}
+
+.reaver-descripton {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.descricao-4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/* parte-da-delete */
+
+.delete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.delete {
+    height: 600px;
+    width: 250px;
+}
+
+.img-delete {
+    height: 358px;
+    width: 196px;
+}
+
+.delete-descripton {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.descricao-5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/* parte-da-umbra */
+
+.umbra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.umbra {
+    height: 600px;
+    width: 250px;
+}
+
+.img-umbra {
+    height: 358px;
+    width: 196px;
+}
+
+.umbra-descripton {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.descricao-6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/* parte-de-secao-3 */
+
+.secao-3 {
+    background-color: bisque;
+    height: 120vh;
+}
+
+.secao-3 img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.divicao-central-da-secao-3 {
+    width: 800px;
+    height: 820px; 
+}
+
+.divicao-central-da-secao-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.secao-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+    
+}
+
+.secao-3 h2{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+/* cofiguracao-do-tributo-noah */
+
+.noah-tributo {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.kaleb-tributo {
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.mortuus-tributo {
+    border: 1px solid black;
+}
+
+.reaver-tributo {
+    border: 1px solid black;
+}
+
+.delete-tributo {
+    border: 1px solid black;
+}
+
+.umbra-tributo {
+    border: 1px solid black;
+}
+
+.noah-elemet {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;  
+}
+
+.kaleb-elemet {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;  
+}
+
+
+
+.secao-3 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
