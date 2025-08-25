@@ -277,8 +277,8 @@
 /* parte-de-secao-3 */
 
 .secao-3 {
-  background-color: bisque;
-  height: 120vh;
+  background-color: rgb(231, 90, 231);
+  height: 160vh;
 }
 
 .secao-3 img {
@@ -324,18 +324,22 @@
 
 .mortuus-tributo {
   border: 1px solid black;
+  padding: 30px;
 }
 
 .reaver-tributo {
   border: 1px solid black;
+  padding: 30px;
 }
 
 .delete-tributo {
   border: 1px solid black;
+  padding: 30px;
 }
 
 .umbra-tributo {
   border: 1px solid black;
+  padding: 30px;
 }
 
 .noah-elemet {
@@ -349,6 +353,31 @@
   flex-direction: row;
   gap: 20px;
 }
+
+.mortuus-elemet {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.reaver-elemet {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.delete-elemet {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.umbra-elemet {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 
 .secao-3 p {
   font-family: "Montserrat", sans-serif;
